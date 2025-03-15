@@ -1,5 +1,5 @@
 body {
-    font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #111111;
     background-color: #ffffff;
     margin: 0;
@@ -42,7 +42,7 @@ a {
     cursor: pointer;
     text-decoration: none;
     font-weight: 500;
-    font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 div#gen-nav-commerce-header{
@@ -166,7 +166,7 @@ div#gen-nav-commerce-header{
 }
 
 .link-text{
-    font: 500 .75rem / 1.5 'Helvetica Now Text Medium', Helvetica, Arial, sans-serif;
+    font: 600 .75rem / 1.5 "Roboto", sans-serif;
 }
 
 .desktop-list .vertical-line {
@@ -325,7 +325,7 @@ div#gen-nav-commerce-header{
 
 .user-tools-container {
     float: right;
-    gap: 4px;
+    gap: 8px;
     flex: 0 0 auto;
     display: flex;
 }
@@ -440,3 +440,187 @@ img.hamburger-icon {
 }
 
 
+
+
+
+
+
+
+/* 
+@media (min-width: 960px) {
+    #commerce-header-v2-wrapper~#experience-wrapper #ciclp-app {
+        padding-top: 0;
+    }
+}
+@media  (min-width: 0px) {
+    #commerce-header-v2-wrapper~#experience-wrapper #ciclp-app {
+        padding-top: 0;
+    }
+}
+@media  (min-width: 960px) {
+    #ciclp-app {
+        padding-bottom: 56px;
+        padding-top: 112px;
+    }
+}
+@media  (min-width: 0px) {
+    #ciclp-app {
+        padding-bottom: 20px;
+        padding-top: 48px;
+    }
+}
+
+.Z25uR9U5.fluid {
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+    overflow-x: clip;
+}
+
+@media (min-width: 640px) {
+    .css-1vtn5w7 {
+        margin-top: 0px;
+    }
+}
+
+.css-17qcvnv {
+    margin-top: 0px;
+}
+@media  (min-width: 600px) {
+    ._1WKaQgke {
+        display: block;
+    }
+}
+@media (min-width: 640px) {
+    .css-1vtn5w7 {
+        margin-top: 0;
+    }
+}
+.css-17qcvnv {
+    margin-top: 0;
+}
+
+.fluid>.withDisabledGutter:first-child {
+    margin-right: 0;
+    margin-left: 0;
+}
+._2IK2ad9n .ncss-row {
+    margin-left: 0;
+    margin-right: 0;
+}
+.ncss-row {
+    font-size: 0;
+    margin-left: -6px;
+    margin-right: -6px;
+} */
+
+.banner{
+    position: relative;
+}
+
+.banner .banner-background{
+    width: 100%;
+}
+
+.banner-content{
+    position: absolute;
+    top: 60%;
+    left: calc(50% - 300px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    min-width: 600px;
+    gap: 8px;
+}
+
+.banner-title{
+    font: 800 4.75rem / 1 'Roboto',  sans-serif;
+    letter-spacing: -6px;
+}
+
+.banner-caption{
+    font: 400 1.25rem / 1.5 'Roboto',  sans-serif;
+}
+
+.button {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+.button {
+    vertical-align: top;
+}
+.button {
+    color: #111111 !important;
+}
+.button {
+    z-index: 1;
+    margin-left: 0;
+    margin-right: 6px;
+    margin-top: 12px;
+    max-width: 100%;
+}
+.button {
+    font: 500 1rem/1.5 'Roboto',  sans-serif;
+    text-align: center;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    padding: 6px 16px 6px;
+    min-height: 34px;
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    background: #ffffff;
+    color: #111111;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+}
+
+.banner .banner-content .button:hover{
+    background-color: #ffffff;
+}
+
+.button:hover{
+    background-color: #CACACB;
+}
+
+.section-container{
+    margin-top: 24px;
+    padding: 0 48px 30px 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-card{
+    position: relative;
+}
+
+.card-overlay{
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    width: calc(100% - 50px);
+    display: flex;
+    justify-content: right;
+}
