@@ -543,20 +543,23 @@ button {
     color: #111111;
 }
 
-.menu-column ul {
+.menu-column .menu-list {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.menu-column li {
-    font-size: 1rem;
-    font-weight: 500;
-    color: #707072;
+.menu-column .menu-list .list-item {
     margin-bottom: 12px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+.menu-column .menu-list .list-item .link-item {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #707072;
 }
 
 @media (max-width: 600px) {
