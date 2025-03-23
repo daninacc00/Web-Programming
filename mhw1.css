@@ -48,7 +48,7 @@ a {
     font-weight: 500;
 }
 
-button, input[type=button], input[type=reset], input[type=submit] {
+button {
     box-sizing: border-box;
     font-size: inherit;
     border: none;
@@ -644,10 +644,6 @@ button, input[type=button], input[type=reset], input[type=submit] {
     height: 14px;
 }
 
-
-
-
-
 .footer-menu {
     display: flex;
     align-items: flex-start;
@@ -779,8 +775,7 @@ button, input[type=button], input[type=reset], input[type=submit] {
     .footer-bottom .footer-list{
         flex-direction: column;
         align-items: start;
-    }
-    
+    }    
 }
 
 
