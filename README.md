@@ -21,7 +21,8 @@ L'**HMW1** consiste nella realizzazione di una replica di una homepage di un sit
 📂 **File inclusi:**  
 - `mhw1.html` (Struttura HTML)  
 - `mhw1.css` (Stili CSS)  
-- `images/` (Cartella con immagini)  
+- `assets/images/` (Cartella con immagini)
+- `assets/icons/` (Cartella con le icone) 
 - `mhw1.pptx` (Presentazione con analisi del sito originale)  
 
 ## 📌 Come Visualizzare il Progetto  
